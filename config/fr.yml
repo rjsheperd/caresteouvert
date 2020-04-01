@@ -1,0 +1,79 @@
+country: FR
+mapping:
+  bakery:
+    shop:
+      - bakery
+      - pastry
+  bank:
+    amenity:
+      - bank
+  shop:
+    - money_lender
+  office:
+    - insurance
+    - financial
+  fuel: # shop ILIKE '%gas%'
+    amenity:
+      - fuel
+  food:
+    shop:
+      - supermarket
+      - convenience
+      - frozen_food
+      - greengrocer
+      - butcher
+      - seafood
+      - cheese
+      - bakery
+      - beverages
+      - wine
+      - alcohol
+      - farm
+      - deli
+    amenity:
+      - marketplace
+  funeral_directors:
+    shop:
+      - funeral_directors
+  pharmacy:
+    amenity:
+      - pharmacy
+  police:
+    amenity:
+      - police
+  post_office:
+    amenity:
+      - post_office
+  tobacco:
+    shop:
+      - tobacco
+      - e-cigarette
+    tobacco:
+      - 'yes'
+      - only
+  shop:
+    amenity:
+      - car_rental
+    shop:
+      - bicycle
+      - mobile_phone
+      - doityourself
+      - craft
+      - optician
+      - electronics
+      - hardware
+      - stationery
+      - medical_supply
+      - laundry
+      - dry_cleaning
+      - kiosk
+      - pet
+      - car_repair
+      - car_parts
+      - agrarian
+      - newsagent
+    office:
+      - employment_agency
+    craft:
+      - optician
+      - electronics_repair
